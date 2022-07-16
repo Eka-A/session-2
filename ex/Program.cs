@@ -34,12 +34,20 @@ void Ex_002()
 
     if (dayNumber == 6 || dayNumber == 7) 
     {
-    Console.WriteLine("этот день выходной");
+    Console.WriteLine("Этот день выходной");
     }
     else if (dayNumber < 1 || dayNumber > 7) {
-        Console.WriteLine("данные введены неверно");
+        Console.WriteLine("Данные введены неверно");
     }
-    else Console.WriteLine("этот день не выходной");
+    else Console.WriteLine("Этот день не выходной");
+
+    if (dayNumber==1) Console.WriteLine("Понедельник");
+    else if (dayNumber==2) Console.WriteLine("Вторник");
+    else if (dayNumber==3) Console.WriteLine("Среда");
+    else if (dayNumber==4) Console.WriteLine("Четверг");
+    else if (dayNumber==5) Console.WriteLine("Пятница");
+    else if (dayNumber==6) Console.WriteLine("Суббота");
+    else if (dayNumber==7) Console.WriteLine("Воскресенье");
 }
 
 //Ex_001();
